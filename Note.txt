@@ -1,0 +1,30 @@
+...some common functions in popular db now a days are
+SUM
+COUNT
+MIN
+MAX
+AVG
+
+...If a row is delete in a db and it has serial data type
+the db doesn't assign a new row the primary key of the deleted row.
+
+... go watch 42:30 and code along
+
+... types of join
+INNER JOIN default only bring matches of both tables
+LEFT JOIN prioritize the left table
+RIGHT JOIN prioritize the right table
+
+...indexing
+research on this more
+
+...netted query
+1 query IN (another query);
+
+..security. things to having in mind when working with SQL
+Sql injections
+
+SELECT user FROM Users_Table where user = "name";
+SELECT * FROM Users_Table WHERE (USERNAME = "name") AND (PASSWORD = "password");
+
+... placeholder in python and placeholder in sqlalchmy
