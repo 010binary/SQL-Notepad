@@ -19,8 +19,20 @@ SELECT "Departure", "Destination", "Duration" FROM Flight
     ORDER BY "Duration" DESC;
 
 -- IN
+-- this is a bit tricky but basically what is does it is checks for colums that match its arg
+-- usage: WHERE "Destination" IN ('New york', 'China', 'London')
+
+SELECT "Departure", "Destination", "Duration" FROM Flight
+    WHERE "Destination" IN ('New york', 'China', 'London')
+    ORDER BY "Duration" DESC;
 
 -- NOT IN
+-- this is the opposite of IN
+-- usage: WHERE "Destination" NOT IN ('New york', 'China', 'London')
+
+SELECT "Departure", "Destination", "Duration" FROM Flight
+    WHERE "Destination" NOT IN ('Ghana', 'Nigeria', 'Beigum')
+    ORDER BY "Duration" ASC;
 
 -- LIKE
 
