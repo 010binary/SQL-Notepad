@@ -35,6 +35,7 @@ SELECT "Departure", "Destination", "Duration" FROM Flight
     ORDER BY "Duration" ASC;
 
 -- LIKE
+-- this is used to search for a particular pattern (like the way Regex work) 
 
 -- IS
 
