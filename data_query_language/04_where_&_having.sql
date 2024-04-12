@@ -41,3 +41,12 @@ SELECT "Departure", "Destination", "Duration" FROM Flight
 SELECT "Departure", "Destination", "Duration" FROM Flight
     WHERE "Destination" = 'New york'
     ORDER BY "Duration" ASC;
+
+
+-- HAVING
+-- this is almost the same thing with WHERE, but is generally used when GROUP BY is used {see 07_subqueries & grouping}
+
+SELECT * FROM Flight
+    GROUP BY "Destination"
+    HAVING COUNT(*) > 1
+    ORDER BY "Duration" DESC;

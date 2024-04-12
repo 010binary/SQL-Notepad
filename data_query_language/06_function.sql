@@ -13,7 +13,7 @@ SELECT SUM("Duration") FROM Flight
     WHERE "Destination" = "New York";
 
 --AVG
--- this function returns the Avarage total of the content of a SEECTED row, This does not work for rows with string
+-- this function returns the Average total of the content of a SEECTED row, This does not work for rows with string
 -- usage: SELECT AVG("Duration") FROM TABLE_name 
 
 SELECT AVG("Duration") FROM Flight
