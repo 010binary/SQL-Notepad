@@ -16,3 +16,5 @@
 6. DCL - Data Control Language --> For persmisson to access to the db e.g REVOKE & GRANT Commands.
 7. Schema - Sturture or Architecture of which a db was created with.
 8. Normalization - Is a general Guide for creating db schemas --> 1NF, 2NF, 3NF
+
+---
